@@ -1,0 +1,291 @@
+body {
+  background-color: lightgray;
+}
+/*MAIN NAVIGATION BAR*/
+.navbar-default {
+  background-color: white;
+  color: darkslategrey;
+}
+.navbar-default .navbar-nav .active a {
+  background-color: rgb(26, 182, 166);
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .navbar-default {
+    background-color: white;
+    color: darkslategrey;
+  }
+  .navbar-default .navbar-nav .active a {
+    background-color: rgb(26, 182, 166);
+    color: white;
+  }
+}
+
+/* INDEX, MAX TEMPERATURE, HUMIDITY, CLOUDINESS, AND WIND SPEED */
+p {
+  font-size: 18px;
+  padding: 7px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+#result-img {
+  width: 500px;
+  max-width: 100%;
+}
+
+h1 {
+  color: rgb(26, 182, 166);
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  color: rgb(26, 182, 166);
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+#main-img {
+  float: left;
+  width: 300px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.main-box {
+  padding: 20px;
+  background: white;
+  margin-top: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+  align-content: center;
+  text-align: justify;
+  position: relative;
+}
+
+.side-box {
+  background: white;
+  padding-top: 27px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 30px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+  align-content: center;
+  position: relative;
+}
+
+.sidebar {
+  position: relative;
+  height: 350px;
+  width: 385px;
+  align-content: center;
+}
+
+#sml-img1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 160px;
+  width: 160px;
+  border: 3px solid white;
+}
+
+#sml-img1-on {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 160px;
+  width: 160px;
+  border: 3px solid rgb(26, 182, 166);
+}
+
+#sml-img1:hover {
+  border: 3px solid rgb(26, 182, 166);
+}
+
+#sml-img2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 160px;
+  width: 160px;
+  border: 3px solid white;
+}
+
+#sml-img2-on {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 160px;
+  width: 160px;
+  border: 3px solid rgb(26, 182, 166);
+}
+
+#sml-img2:hover {
+  border: 3px solid rgb(26, 182, 166);
+}
+
+#sml-img3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 160px;
+  width: 160px;
+  border: 3px solid white;
+}
+
+#sml-img3-on {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 160px;
+  width: 160px;
+  border: 3px solid rgb(26, 182, 166);
+}
+
+#sml-img3:hover {
+  border: 3px solid rgb(26, 182, 166);
+}
+
+#sml-img4 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 160px;
+  width: 160px;
+  border: 3px solid white;
+}
+
+#sml-img4-on {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 160px;
+  width: 160px;
+  border: 3px solid rgb(26, 182, 166);
+}
+
+#sml-img4:hover {
+  border: 3px solid rgb(26, 182, 166);
+}
+
+@media (max-width: 995px) {
+  .sidebar {
+    position: relative;
+    height: 145px;
+    width: auto;
+  }
+  #sml-img1 {
+    float: left;
+    position: relative;
+    width: 25%;
+    border: 3px solid white;
+  }
+  #sml-img1-on {
+    float: left;
+    position: relative;
+    width: 25%;
+    border: 3px solid rgb(26, 182, 166);
+  }
+  #sml-img1:hover {
+    border: 3px solid rgb(26, 182, 166);
+  }
+  #sml-img2 {
+    float: left;
+    position: relative;
+    width: 25%;
+    border: 3px solid white;
+  }
+  #sml-img2-on {
+    float: left;
+    position: relative;
+    width: 25%;
+    border: 3px solid rgb(26, 182, 166);
+  }
+  #sml-img2:hover {
+    border: 3px solid rgb(26, 182, 166);
+  }
+  #sml-img3 {
+    float: left;
+    position: relative;
+    width: 25%;
+    border: 3px solid white;
+  }
+  #sml-img3-on {
+    float: left;
+    position: relative;
+    width: 25%;
+    border: 3px solid rgb(26, 182, 166);
+  }
+  #sml-img3:hover {
+    border: 3px solid rgb(26, 182, 166);
+  }
+  #sml-img4 {
+    float: left;
+    position: relative;
+    width: 25%;
+    border: 3px solid white;
+  }
+  #sml-img4-on {
+    float: left;
+    position: relative;
+    width: 25%;
+    border: 3px solid rgb(26, 182, 166);
+  }
+  #sml-img4:hover {
+    border: 3px solid rgb(26, 182, 166);
+  }
+}
+
+/*FOOTER*/
+.main-footer {
+  background-color: slategrey;
+  margin-top: 25px;
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  border-top: 10px solid rgb(26, 182, 166);
+  line-height: 25px;
+}
+
+#footer-txt {
+  margin: 0;
+  color: white;
+}
+
+/*COMPARISON PAGE*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*DATA TABLE*/
+table {
+  border-collapse: collapse;
+  border: 0;
+}
+
+th,
+td {
+  border: 0;
+  padding: 5px;
+}
+
+@media (max-width: 760px) {
+  table {
+    overflow-x: scroll;
+    display: block;
+  }
+}
